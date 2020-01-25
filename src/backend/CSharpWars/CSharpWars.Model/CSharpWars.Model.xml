@@ -1,0 +1,140 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CSharpWars.Model</name>
+    </assembly>
+    <members>
+        <member name="T:CSharpWars.Model.Arena">
+            <summary>
+            Model class representing the arena dimensions.
+            </summary>
+        </member>
+        <member name="P:CSharpWars.Model.Arena.Width">
+            <summary>
+            The width of the arena in number of tiles.
+            </summary>
+        </member>
+        <member name="P:CSharpWars.Model.Arena.Height">
+            <summary>
+            The height of the arena in number of tiles.
+            </summary>
+        </member>
+        <member name="T:CSharpWars.Model.Bot">
+            <summary>
+            Model class representing a bot in an active game.
+            </summary>
+        </member>
+        <member name="P:CSharpWars.Model.Bot.Id">
+            <summary>
+            A unique identifier for this bot.
+            </summary>
+        </member>
+        <member name="P:CSharpWars.Model.Bot.Name">
+            <summary>
+            A name representing this bot.
+            </summary>
+        </member>
+        <member name="P:CSharpWars.Model.Bot.X">
+            <summary>
+            The location on the X-ax in the arena this bot is occupying.
+            </summary>
+        </member>
+        <member name="P:CSharpWars.Model.Bot.Y">
+            <summary>
+            The location on the Y-ax in the arena this bot is occupying.
+            </summary>
+        </member>
+        <member name="P:CSharpWars.Model.Bot.Orientation">
+            <summary>
+            The orientation this bot is facing.
+            </summary>
+        </member>
+        <member name="P:CSharpWars.Model.Bot.MaximumStamina">
+            <summary>
+            The maximum stamina this bot has available.
+            </summary>
+        </member>
+        <member name="P:CSharpWars.Model.Bot.CurrentStamina">
+            <summary>
+            The current stamina this bot has left.
+            </summary>
+        </member>
+        <member name="P:CSharpWars.Model.Bot.Move">
+            <summary>
+            The current move this bot is performing.
+            </summary>
+        </member>
+        <member name="P:CSharpWars.Model.Bot.Memory">
+            <summary>
+            The JSON serialized memory this bot is storing.
+            </summary>
+        </member>
+        <member name="P:CSharpWars.Model.Bot.Script">
+            <summary>
+            A Base64 encoded C# script containing the
+            logic that needs to be executed by this bot.
+            </summary>
+        </member>
+        <member name="T:CSharpWars.Model.BotInfo">
+            <summary>
+            Model class representing bot information in an active game.
+            </summary>
+        </member>
+        <member name="P:CSharpWars.Model.BotInfo.Id">
+            <summary>
+            A unique identifier for this bot.
+            </summary>
+        </member>
+        <member name="P:CSharpWars.Model.BotInfo.Name">
+            <summary>
+            A name representing this bot.
+            </summary>
+        </member>
+        <member name="P:CSharpWars.Model.BotInfo.X">
+            <summary>
+            The location on the X-ax in the arena this bot is occupying.
+            </summary>
+        </member>
+        <member name="P:CSharpWars.Model.BotInfo.Y">
+            <summary>
+            The location on the Y-ax in the arena this bot is occupying.
+            </summary>
+        </member>
+        <member name="P:CSharpWars.Model.BotInfo.Orientation">
+            <summary>
+            The orientation this bot is facing.
+            </summary>
+        </member>
+        <member name="P:CSharpWars.Model.BotInfo.MaximumStamina">
+            <summary>
+            The maximum stamina this bot has available.
+            </summary>
+        </member>
+        <member name="P:CSharpWars.Model.BotInfo.CurrentStamina">
+            <summary>
+            The current stamina this bot has left.
+            </summary>
+        </member>
+        <member name="P:CSharpWars.Model.BotInfo.Move">
+            <summary>
+            The current move this bot is performing.
+            </summary>
+        </member>
+        <member name="T:CSharpWars.Model.BotToCreate">
+            <summary>
+            Model class representing a bot that needs to be created.
+            </summary>
+        </member>
+        <member name="P:CSharpWars.Model.BotToCreate.Name">
+            <summary>
+            The name for a bot.
+            </summary>
+        </member>
+        <member name="P:CSharpWars.Model.BotToCreate.Script">
+            <summary>
+            A Base64 encoded C# script containing the
+            logic that needs to be executed by this bot.
+            </summary>
+        </member>
+    </members>
+</doc>
