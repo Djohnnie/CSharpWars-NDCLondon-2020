@@ -23,7 +23,7 @@ Return to the backend solution in Visual Studio 2019 and make the backend webapi
 * Open the newly created *launchSettings.json* file in the Properties node for the project.
 * Remove the *IIS Express* profile and keep the *CSharpWars.Web.Api* profile
 
-```
+```json
 {
   "profiles": {
     "CSharpWars.Web.Api": {
