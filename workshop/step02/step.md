@@ -3,7 +3,8 @@
 ![CSharp Wars Logo](https://www.djohnnie.be/csharpwars/logo.png "CSharp Wars Logo")
 
 [Return to README](https://github.com/Djohnnie/CSharpWars-NDCLondon-2020)
-[Return to step 2](https://github.com/Djohnnie/CSharpWars-NDCLondon-2020/tree/master/workshop/step02)
+
+[Return to step 2](https://github.com/Djohnnie/CSharpWars-NDCLondon-2020/blob/master/workshop/step02/step.md)
 
 ## Step 2
 
@@ -31,4 +32,4 @@ The left hand side of the Unity workspace contains your current scene. Browse th
 
 Pressing the *play* button, located on top, will run your active scene and you should see the cube floating in space with a static camera.
 
-[Continue to step 3](https://github.com/Djohnnie/CSharpWars-NDCLondon-2020/tree/master/workshop/step03)
+[Continue to step 3](https://github.com/Djohnnie/CSharpWars-NDCLondon-2020/blob/master/workshop/step03/step.md)

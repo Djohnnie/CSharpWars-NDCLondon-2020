@@ -10,6 +10,8 @@ If you'd like to participate in the 'Building an educational game with .NET Core
 * **[Unity 2019.2.19f1 (Personal, add installation from Unity Hub by clicking Installs and Add)](https://public-cdn.cloud.unity3d.com/hub/prod/UnityHubSetup.exe)**
 * **[Clone this GIT repository (master) to your computer the day before attending the workshop](https://github.com/Djohnnie/CSharpWars-NDCLondon-2020)**
 
+[Click here to follow the workshop step-by-step](https://github.com/Djohnnie/CSharpWars-NDCLondon-2020/blob/master/workshop/step01/step.md)
+
 ## Table of Contents
 
 * [Part 1 - Forming the Idea](#part-1---forming-the-idea)

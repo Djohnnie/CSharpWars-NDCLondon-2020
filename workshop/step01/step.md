@@ -18,4 +18,4 @@ A directory will be created containing a *src* folder and a *frontend* and *back
 * The *backend* folder contains a Visual Studio with containing multiple projects for both the ASP.NET Core 3.1 WebApi backend and the .NET Core 3.1 middleware worker service.
 * The *frontend* folder contains the Unity frontend project.
 
-[Continue to step 2](https://github.com/Djohnnie/CSharpWars-NDCLondon-2020/tree/master/workshop/step02)
+[Continue to step 2](https://github.com/Djohnnie/CSharpWars-NDCLondon-2020/blob/master/workshop/step02/step.md)
