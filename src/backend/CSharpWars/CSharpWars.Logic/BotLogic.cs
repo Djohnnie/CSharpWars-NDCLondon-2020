@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using CSharpWars.Common.Extensions;
@@ -29,22 +30,12 @@ namespace CSharpWars.Logic
 
         public async Task<IList<Bot>> GetBots()
         {
-            return await _dbContext.Bots.ToListAsync();
+            throw new NotImplementedException();
         }
 
         public async Task<IList<BotInfo>> GetBotInfo()
         {
-            return await _dbContext.Bots.Select(b => new BotInfo
-            {
-                Id = b.Id,
-                Name = b.Name,
-                Orientation = b.Orientation,
-                X = b.X,
-                Y = b.Y,
-                Move = b.Move,
-                MaximumStamina = b.MaximumStamina,
-                CurrentStamina = b.CurrentStamina
-            }).ToListAsync();
+            throw new NotImplementedException();
         }
 
         public async Task<BotInfo> CreateBot(BotToCreate botToCreate)

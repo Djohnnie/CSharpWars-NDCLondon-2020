@@ -1,4 +1,5 @@
-﻿using CSharpWars.Logic.Interfaces;
+﻿using System;
+using CSharpWars.Logic.Interfaces;
 using System.Threading.Tasks;
 using CSharpWars.Common.Configuration.Interfaces;
 using CSharpWars.Model;
@@ -13,13 +14,10 @@ namespace CSharpWars.Logic
         {
             _configurationHelper = configurationHelper;
         }
+
         public Task<Arena> GetArena()
         {
-            return Task.FromResult(new Arena
-            {
-                Width = _configurationHelper.ArenaSize,
-                Height = _configurationHelper.ArenaSize
-            });
+            throw new NotImplementedException();
         }
     }
 }

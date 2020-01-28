@@ -1,4 +1,5 @@
-﻿using System.Threading.Tasks;
+﻿using System;
+using System.Threading.Tasks;
 using CSharpWars.Logic.Interfaces;
 using CSharpWars.Processor.Middleware.Interfaces;
 
@@ -28,14 +29,7 @@ namespace CSharpWars.Processor.Middleware
 
         public async Task Process()
         {
-                var arena = await _arenaLogic.GetArena();
-                var bots = await _botLogic.GetBots();
-
-                var context = await _preprocessor.Go(arena, bots);
-                await _processor.Go(context);
-                await _postprocessor.Go(context);
-
-                await _botLogic.UpdateBots(context.Bots);
+            throw new NotImplementedException();
         }
     }
 }

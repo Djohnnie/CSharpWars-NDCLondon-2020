@@ -5,13 +5,7 @@ namespace CSharpWars.Scripting
 {
     public class ScriptGlobals
     {
-        #region <| Private Members |>
-
         private readonly BotProperties _botProperties;
-
-        #endregion
-
-        #region <| Public Properties |>
 
         public int Width => _botProperties.Width;
         public int Height => _botProperties.Height;
@@ -22,18 +16,10 @@ namespace CSharpWars.Scripting
         public int MaximumStamina => _botProperties.MaximumStamina;
         public int CurrentStamina => _botProperties.CurrentStamina;
 
-        #endregion
-
-        #region <| Construction |>
-
         public ScriptGlobals(BotProperties botProperties)
         {
             _botProperties = botProperties;
         }
-
-        #endregion
-
-        #region <| Public Methods |>
 
         /// <summary>
         /// Calling this method will move the player one position forward.
@@ -101,10 +87,6 @@ namespace CSharpWars.Scripting
             return default;
         }
 
-        #endregion
-
-        #region <| Helper Methods |>
-
         private void SetCurrentMove(PossibleMoves currentMove)
         {
             if (_botProperties.CurrentMove == PossibleMoves.Idling)
@@ -112,7 +94,5 @@ namespace CSharpWars.Scripting
                 _botProperties.ChangeCurrentMove(currentMove);
             }
         }
-
-        #endregion
     }
 }
