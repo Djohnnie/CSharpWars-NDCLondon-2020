@@ -4,11 +4,11 @@
 
 [Return to README](https://github.com/Djohnnie/CSharpWars-NDCLondon-2020)
 
-[Return to step 2](https://github.com/Djohnnie/CSharpWars-NDCLondon-2020/blob/master/workshop/step02/step.md)
+[Return to step 1](https://github.com/Djohnnie/CSharpWars-NDCLondon-2020/blob/master/workshop/step01/step.md)
 
 ## Step 2
 
-Open the backend solution in Visual Studio 2019 or Visual Studio Code
+Open the backend solution in Visual Studio 2019
 
 ```
 .\CSharpWars-NDCLondon-2020\src\backend\CSharpWars\CSharpWars.sln
@@ -31,5 +31,13 @@ Open the frontend Unity project by adding the folder to the projects page of the
 The left hand side of the Unity workspace contains your current scene. Browse the project structure in the bottom and find the *MainScene* in the *Scenes* folder and double-click this to make it the actively selected scene. You should now see a cube in the active Scene visualization window.
 
 Pressing the *play* button, located on top, will run your active scene and you should see the cube floating in space with a static camera.
+
+Open the frontend scripting solution in Visual Studio 2019
+
+```
+.\CSharpWars-NDCLondon-2020\src\frontend\CSharpWars\CSharpWars.sln
+```
+
+This solution contains all C# scripts that are used to make the Unity frontend tick.
 
 [Continue to step 3](https://github.com/Djohnnie/CSharpWars-NDCLondon-2020/blob/master/workshop/step03/step.md)
