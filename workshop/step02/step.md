@@ -26,7 +26,7 @@ This solution contains multiple projects for both the ASP.NET Core 3.1 WebApi ba
 
 Open the frontend Unity project by adding the folder to the projects page of the Unity Hub and clicking the project tile.
 
-![CSharp Wars Logo](sshot-1.png "CSharp Wars Logo")
+![Screenshot](sshot-1.png "Screenshot")
 
 The left hand side of the Unity workspace contains your current scene. Browse the project structure in the bottom and find the *MainScene* in the *Scenes* folder and double-click this to make it the actively selected scene. You should now see a cube in the active Scene visualization window.
 

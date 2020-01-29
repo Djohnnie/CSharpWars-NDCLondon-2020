@@ -72,9 +72,5 @@ Click the *Execute* button and see the result of your creation as a confirmation
 
 The *Id*, *X*, *Y* and *Orientation* will be set to a random value. The *MaximumStamina* and *CurrentStamina* will be defaulted to 100. The *Move* will default to *Idling*.
 
-Now that we have a robot in the database, we can go back to our Unity editor to make the robot appear on the arena.
-
-
-
 
 [Continue to step 7](https://github.com/Djohnnie/CSharpWars-NDCLondon-2020/blob/master/workshop/step07/step.md)
