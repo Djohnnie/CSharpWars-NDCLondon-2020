@@ -76,4 +76,4 @@ Also, in the scene hierarchy, if you expand the *_Arena* game object you can see
 ![Screenshot](sshot-7.png "Screenshot")
 
 
-[Continue to step 8](https://github.com/Djohnnie/CSharpWars-NDCLondon-2020/blob/master/workshop/step07/step.md)
+[Continue to step 8](https://github.com/Djohnnie/CSharpWars-NDCLondon-2020/blob/master/workshop/step08/step.md)
